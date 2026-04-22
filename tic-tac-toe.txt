@@ -1,0 +1,15 @@
+1. Forked the project on Github
+2. Cloned the project with Git Clone
+3. Opened the project in my IDE (Webstorm)
+4. Ran npm install to get all the dependencies
+5. Followed the https://react.dev/learn/tutorial-tic-tac-toe tutorial to get App.jsx to create tic-tac-toe
+- Created the square function, which just creates a square box.
+- Set the button to only hold an X for now (since I wasn't at the point of having the changing logic at this point).
+- Created the board function, which consists of 9 squares.
+- Started off by having 9 X boxes in a row, and split it into 3 divs for it to be a 3x3 as intended.
+- Added a parameter to the Square function so that I could control what went into the boxes.
+- Learned how to use onClick to create clickable objects and applied that to all the boxes via a handleClick that put an X when clicked.
+- Define the board as having an X or O when clicked, depending on what move number we're currently on.
+- Updated the parameters of Square to have an additional parameter which allowed me to control if the square got an X or O based on the click index.
+- Calculate winner by checking across the lines and diagonals for matching X's or O's (calculateWinner from tutorial).
+- Tic tac toe game is now complete!
